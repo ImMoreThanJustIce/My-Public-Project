@@ -1,0 +1,29 @@
+.filmCard {
+  border: thin solid black;
+  padding: 1rem;
+  border-radius: 0.1875rem;
+  background-color: rgba(0, 0, 0, 0.059);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  transform-origin: 50%;
+}
+
+.filmCard:hover {
+  transform: scale(1.02);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.filmCard h3 {
+  color: red;
+}
+
+.filmCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.filmCardContainer > a {
+  text-decoration: none;
+  color: inherit;
+}

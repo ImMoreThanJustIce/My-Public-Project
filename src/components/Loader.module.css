@@ -1,0 +1,20 @@
+.loader {
+  color: black;
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0;
+  border-radius: 1rem;
+  border: 0.4rem solid transparent;
+  border-left: 0.3rem solid black;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
